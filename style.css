@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    header {
+        background-color: #B1CCB4;
+        width: 100vw;
+        height: 125px;
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        & .logo {
+            margin-top: 2px;
+            width: 27%;
+        }
+    }
+
+    & .msg {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        & h3 {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 8px;
+            text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        & p {
+            text-align: center;
+            font-size: 15px;
+
+        }
+
+    }
+
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="email"]::placeholder {
+    color: #b0b0b0;
+    font-size: 16px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #a8d5ba;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.login-button:hover {
+    background-color: #97c5a5;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.divider .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.divider .or {
+    padding: 0 10px;
+    color: #999;
+}
+
+.alt-login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e0e0e0;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alt-login-button:hover {
+    background-color: #ccc;
+}
