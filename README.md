@@ -1,6 +1,6 @@
 # 🖥️ Projeto Biblioteca Virtual
 Projeto de uma Biblioteca Virtual para um faculdade
-Esse projeto começou como um trabalho para a faculdade e hoje decidir dar continuidade à ele. Estou começando pela página de login e aos poucos irei atualizando.
+Esse projeto começou como um trabalho para a faculdade e hoje decidi dar continuidade à ele. Estou começando pela página de login e aos poucos irei atualizando.
 
 <img width="70%" src="https://github.com/user-attachments/assets/68749c60-ae98-490b-844b-4aa11ac3ee9d">
 
